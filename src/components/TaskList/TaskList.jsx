@@ -2,7 +2,8 @@ import { useSelector } from 'react-redux';
 import { Task } from 'components/Task/Task';
 // Импортируем объект значений фильтра
 import { statusFilters } from 'redux/constants';
-import { getStatusFilter, getTasks } from 'redux/selectors';
+import { getTasks } from 'redux/tasksSlice';
+import { getStatusFilter } from 'redux/filtersSlice';
 import css from './TaskList.module.css';
 
 const getVisibleTasks = (tasks, statusFilter) => {
