@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/goit-react-textbook-redux-toolkit-createSlice/static/css/main.5763847e.css",
+    "main.js": "/goit-react-textbook-redux-toolkit-createSlice/static/js/main.575cfb2a.js",
+    "index.html": "/goit-react-textbook-redux-toolkit-createSlice/index.html",
+    "main.5763847e.css.map": "/goit-react-textbook-redux-toolkit-createSlice/static/css/main.5763847e.css.map",
+    "main.575cfb2a.js.map": "/goit-react-textbook-redux-toolkit-createSlice/static/js/main.575cfb2a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5763847e.css",
+    "static/js/main.575cfb2a.js"
+  ]
+}
