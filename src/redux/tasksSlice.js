@@ -39,7 +39,7 @@ export const tasksSlice = createSlice({
     },
 
     toggleCompleted(state, action) {
-      for (const task of state) {
+      for (const task of state.items) {
         if (task.id === action.payload) {
           task.completed = !task.completed;
           break;
